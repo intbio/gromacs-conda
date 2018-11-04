@@ -22,5 +22,5 @@ anaconda upload path_to_package
 ## Installing from Anaconda cloud
 
 ```
-conda install -c intbio freesasa
+conda install -c intbio gromacs
 ```
