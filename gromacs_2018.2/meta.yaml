@@ -27,13 +27,13 @@ requirements:
     - openmp # [linux]
   #  - ocl-icd
     - libhwloc 1.*
-  #  - fftw
+    - fftw
     - perl
     - python >=2.7
   run:
  #   - ocl-icd
     - openmp # [linux]
-  #  - fftw
+    - fftw
     - libhwloc 1.*
 
 test:

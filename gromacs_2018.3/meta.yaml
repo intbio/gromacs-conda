@@ -24,13 +24,13 @@ requirements:
     - cmake
   host:
     - openmp # [linux]
-    - ocl-icd
+  #  - ocl-icd
     - libhwloc 1.*
     - fftw
     - perl
     - python >=2.7
   run:
-    - ocl-icd
+ #   - ocl-icd
     - openmp # [linux]
     - fftw
     - libhwloc 1.*
