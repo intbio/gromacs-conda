@@ -10,7 +10,7 @@ conda install conda-build
 conda install anaconda-client
 anaconda login
 
-conda-build freesasa
+conda-build gromacs
 anaconda upload path_to_package
 ```
 
