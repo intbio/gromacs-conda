@@ -15,7 +15,7 @@ anaconda upload path_to_package
 ```
 
 
-## Installing freesasa python libary from Anaconda cloud
+## Installing from Anaconda cloud
 
 ```
 conda install -c intbio freesasa
