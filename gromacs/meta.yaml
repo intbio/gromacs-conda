@@ -9,7 +9,7 @@ package:
 
 build:
   number: 0
-  skip: True  # [osx]
+#  skip: True  # [osx]
 
 # See http://manual.gromacs.org/documentation/
 # for latest release. Note that version scheme changed from
@@ -25,15 +25,15 @@ requirements:
     - cmake
   host:
     - openmp # [linux]
-    - ocl-icd
+  #  - ocl-icd
     - libhwloc 1.*
-    - fftw
+  #  - fftw
     - perl
     - python >=2.7,<3
   run:
-    - ocl-icd
+ #   - ocl-icd
     - openmp # [linux]
-    - fftw
+  #  - fftw
     - libhwloc 1.*
 
 test:
