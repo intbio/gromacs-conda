@@ -20,6 +20,7 @@ cmake .. \
   -DCMAKE_INSTALL_PREFIX=$PREFIX \
   -DCMAKE_OSX_SYSROOT=/opt/MacOSX10.9.sdk/ \
   -DCMAKE_OSX_DEPLOYMENT_TARGET=10.9
-make -j 8
+#make -j 8
+make
 make check
 make install
