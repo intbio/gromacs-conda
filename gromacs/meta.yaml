@@ -24,7 +24,7 @@ requirements:
     - {{ compiler('c') }}
     - cmake
   host:
-    - openmp # [linux]
+  #  - openmp # [linux]
   #  - ocl-icd
     - libhwloc 1.*
   #  - fftw
@@ -32,7 +32,7 @@ requirements:
     - python >=2.7,<3
   run:
  #   - ocl-icd
-    - openmp # [linux]
+ #   - openmp # [linux]
   #  - fftw
     - libhwloc 1.*
 
