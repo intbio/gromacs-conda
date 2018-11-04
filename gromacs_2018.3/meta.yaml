@@ -1,0 +1,46 @@
+about:
+  home: http://www.gromacs.org/
+  license: GNU Lesser General Public License (LGPL)
+  summary: GROMACS is a versatile package to perform molecular dynamics.
+
+package:
+  name: gromacs
+  version: 2018.3
+
+build:
+  number: 0
+#  skip: True  # [osx]
+
+# See http://manual.gromacs.org/documentation/
+# for latest release. Note that version scheme changed from
+# 5.1 to 2016.x and 2018.x
+source:
+  url: http://ftp.gromacs.org/pub/gromacs/gromacs-2018.3.tar.gz
+  md5: c82634a31d0ec7dc8a128f404149440e
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - cmake
+  host:
+    - openmp # [linux]
+    - ocl-icd
+    - libhwloc 1.*
+    - fftw
+    - perl
+    - python >=2.7
+  run:
+    - ocl-icd
+    - openmp # [linux]
+    - fftw
+    - libhwloc 1.*
+
+test:
+  commands:
+    - gmx -version
+
+
+#extra:
+#  identifiers:
+#    - biotools:gromacs
+#    - doi:10.1016/j.softx.2015.06.001
