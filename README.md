@@ -23,5 +23,5 @@ anaconda upload path_to_package
 ## Installing from Anaconda cloud
 
 ```
-conda install -c intbio gromacs
+conda install -c conda-forge -c intbio gromacs
 ```
