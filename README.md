@@ -1,6 +1,6 @@
 # gromacs-conda
 
-Anaconda recipe for [Gromacs](https://www.gromacs.org).
+Anaconda recipe for [Gromacs](http://www.gromacs.org).
 A very basic build - mainly to prepare files for an MD run on a computer cluster.
 
 
