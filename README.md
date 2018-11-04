@@ -14,8 +14,8 @@ anaconda login
 #For OSX you'll need to download older compatible SDK
 #See here https://conda.io/docs/user-guide/tasks/build-packages/compiler-tools.html
 
-conda config --add channels conda-forge
-conda-build gromacs
+#conda config --add channels conda-forge
+conda-build -c conda-forge gromacs
 anaconda upload path_to_package
 ```
 
