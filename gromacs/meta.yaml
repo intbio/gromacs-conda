@@ -29,7 +29,7 @@ requirements:
     - libhwloc 1.*
   #  - fftw
     - perl
-    - python >=2.7,<3
+    - python >=2.7
   run:
  #   - ocl-icd
     - openmp # [linux]
