@@ -15,7 +15,7 @@ anaconda login
 #See here https://conda.io/docs/user-guide/tasks/build-packages/compiler-tools.html
 
 #conda config --add channels conda-forge
-conda-build -c conda-forge gromacs
+conda-build -c conda-forge gromacs_VERSION
 anaconda upload path_to_package
 ```
 
