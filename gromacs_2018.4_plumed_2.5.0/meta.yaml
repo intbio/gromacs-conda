@@ -18,7 +18,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
-    - plumed2 = 2.5.0
+    - plumed2 =2.5.0
   host:
     - openmp # [linux]
   #  - ocl-icd
@@ -26,13 +26,13 @@ requirements:
   #  - fftw
     - perl
     - python >=2.7
-    - plumed2 = 2.5.0
+    - plumed2 =2.5.0
   run:
  #   - ocl-icd
     - openmp # [linux]
  #   - fftw
     - libhwloc 1.*
-    - plumed2 = 2.5.0
+    - plumed2 =2.5.0
 
 test:
   commands:
